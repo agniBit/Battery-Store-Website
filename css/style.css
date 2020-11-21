@@ -1,0 +1,99 @@
+/* .bg1{
+    background-image: url('../assets/car-battery-life.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+  } */
+
+.our_services{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* height: 480px; */
+}
+
+.our_services h1{
+  font-size: 42px!important;
+  font-weight: bold;
+  padding-bottom: 42px;
+}
+
+
+.our_services p{
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+
+.imgsetting{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: lightslategrey;
+}
+
+.fa-truck{
+  padding-top: 25%;
+  height: 100px;
+  width: 100px;
+}
+
+.fa-check{
+  padding-top: 25%;
+  height: 100px;
+  width: 100px; 
+}
+
+
+.fa-cart-arrow-down{
+  padding-top: 25%;
+  height: 100px;
+  width: 100px;
+}
+
+.grid1{
+  height: 660px;
+  width: 100%;
+  background-image: url('../assets/car-battery-life2.jpg');
+  background-size: 100% 100%;
+}
+
+.grid1 h1{
+  padding-top: 210px;
+  font-weight: bold;
+}
+.grid1 p{
+  font-weight: bold;
+}
+
+.footer_desc{
+  padding-top: 20px;
+}
+
+
+.service_desc h2{
+  padding-top: 25px;
+  font-size: 24px;
+  max-lines: 2;
+}
+
+.service_desc p{
+  /* padding-top: 18px; */
+  font-size: 18px;
+}
+
+.about_ous_2{
+  /* float: right;
+  align-content: right; */
+  padding-top: 80px;
+  padding-left: 60px;
+}
+
+.about_ous_2 h5{
+  /* float: right;
+  align-content: right; */
+  padding-top: 20px;
+}
+.about_ous_2 p{
+  padding-top: 10px;
+  text-align: justify;
+}
