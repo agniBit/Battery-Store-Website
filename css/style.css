@@ -64,8 +64,11 @@ h1 {
 .grid1{
   width: 100%;
   height: 660px;
-  background-image: url('../assets/car-battery-life2.jpg');
-  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../assets/mian_.jpg');
+  /* background-size: 100% auto; */
 }
 
 .grid1 h1{
