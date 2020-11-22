@@ -114,3 +114,27 @@ h1 {
   text-align: justify;
 }
 
+
+.contact_us_from{
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+
+.contact_us_from h2{
+  font-size: 46px;
+  padding-bottom: 40px;
+}
+
+.form-control-style{
+  background: transparent!important;
+  border: none!important;
+  outline: none!important;
+  border-bottom: 2px solid white!important;
+}
+
+.submit-btn{
+  /* background:rgb(11, 11, 133)!important; */
+  /* color: blue; */
+  width: 100%!important;
+}
