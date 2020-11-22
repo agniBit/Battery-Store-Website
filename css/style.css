@@ -121,7 +121,7 @@ h1 {
   padding-bottom: 40px;
 }
 
-.contact_us_from h2{
+.contact_us_from h1{
   font-size: 46px;
   padding-bottom: 40px;
 }
@@ -138,3 +138,16 @@ h1 {
   /* color: blue; */
   width: 100%!important;
 }
+
+
+.get-in-touch{
+  background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.get-intouch-icon{
+  padding-top: 72px;
+}
+

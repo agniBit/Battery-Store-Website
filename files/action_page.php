@@ -2,13 +2,13 @@
     $name = $_POST['name'];
     $number = $_POST['number'];
     $email = $_POST['email'];
-    $massage = $_POST['massage'];
+    $message = $_POST['message'];
 
-    $email_subject = "new massage from site";
+    $email_subject = "new message from site";
 
     $email_body =   "Name: $name\n".
                     "user eamil: $email\n".
-                    "Massge: $massage\n";
+                    "Massge: $message\n";
     
     $to = "abhi.agni00@gmail.com";
 
