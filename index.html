@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!-- saved from url=(0049)file:///home/agni/site/W3.CSS%20Template%202.html -->
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Nikhil Batteries</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./files/w3.css">
@@ -12,7 +13,7 @@
 <style>
   body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-  .fa-anchor,.fa-coffee {font-size:200px}
+  /* .fa-anchor,.fa-coffee {font-size:200px} */
 </style>
 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -28,9 +29,13 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <script data-dapp-detection="">(function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){return window.__disableDappDetectionInsertion||n(),t}})}})();</script> -->
-</head><body>
+</head>
 
-<!-- Navbar -->
+
+<body>
+
+
+  <!-- Navbar -->
 <div class="w3-top">
   <nav class="navbar navbar-expand-md navbar-collapse bg-dark navbar-dark">
     <div class="container-fluid">
@@ -46,19 +51,19 @@
       <div class="collapse navbar-collapse text-center" id="collapsenavbar">
         <ul class="nav navbar-nav ml-auto text-white">
           <li class="nav-item">
-            <a href="" class="nav-link text-white">services</a>
+            <a href="" class="nav-link text-white"><b>services</b></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-white">about us</a>
+            <a href="" class="nav-link text-white"><b>about us</b></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-white">contacts</a>
+            <a href="" class="nav-link text-white"><b>contacts</b></a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-white">team</a>
+            <a href="" class="nav-link text-white"><b>team</b></a>
           </li>
           <li class="nav-item">
-            <a href="tel:+917820961924" class="nav-link Blondie">
+            <a href="tel:+917820961924" class="nav-link text-white">
               <i class="fa fa-phone" aria-hidden="true"></i> <b>7820961924</b>
             </a>
           </li>
@@ -82,11 +87,21 @@
 
 <section class="container our_services text-center">
 	<h1>SHOP BY CATEGORY</h1>
-	<!-- <p>mtlb abhi imidiate nhi soche hai sochege</p> -->
-	<div class="row rowsetting">
-		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto w3-center">
+  <!-- <p>mtlb abhi imidiate nhi soche hai sochege</p> -->
+  <div class="row rowsetting">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block ml-auto w3-center">
       <div class="card w3-center">
-        <img class="card-img-top" src="./assets/car.gif" alt="Card image">
+        <img class="card-img-top" src="./assets/bike.gif" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Car Batteries</h4>
+          <!-- <p class="card-text">Some example text.</p> -->
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+	</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block ml-auto w3-center">
+      <div class="card w3-center">
+        <img class="card-img-top" src="./assets/car2.gif" alt="Card image">
         <div class="card-body">
           <h4 class="card-title">Car Batteries</h4>
           <!-- <p class="card-text">Some example text.</p> -->
@@ -95,18 +110,7 @@
       </div>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto w3-center">
-      <div class="card w3-center">
-        <img class="card-img-top" src="./assets/home2.gif" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title">Inverter Batteries</h4>
-          <!-- <p class="card-text">Some example text.</p> -->
-          <a href="#" class="btn btn-primary">Shop Now</a>
-        </div>
-      </div>
-		</div>
-
-		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block ml-auto">
       <div class="card w3-center">
         <img class="card-img-top" src="./assets/truck.gif" alt="Card image">
         <div class="card-body">
@@ -115,7 +119,19 @@
           <a href="#" class="btn btn-primary">Shop Now</a>
         </div>
       </div>
-		</div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block ml-auto w3-center">
+      <div class="card w3-center">
+        <img class="card-img-top" src="./assets/home2.gif" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Inverter Batteries</h4>
+          <!-- <p class="card-text">Some example text.</p> -->
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    
 	</div>
 </section>
 
@@ -198,7 +214,7 @@
 <div class="w3-row-padding w3-light-grey w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <img src="./assets/banner-mobile6.png">
+      <img src="./assets/problem.png" class="about-us-image">
     </div>
 
     <div class="w3-twothird about_ous_2 w3-center">
@@ -221,7 +237,7 @@
 	<div class="row rowsetting">
 		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
 			<div class="imgsetting d-block m-auto">
-        <i class="fa fa-cart-arrow-down text-white fa-5x m-auto"></i>
+        <i class="fa fa-cart-arrow-down text-white fa-4x m-auto"></i>
       </div>
       <div class="service_desc">
         <h2>FREE PROFESSIONAL Installation</h2>
@@ -231,7 +247,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
 			<div class="imgsetting d-block m-auto">
-        <i class="fa fa-truck text-white fa-5x m-auto"></i>
+        <i class="fa fa-truck text-white fa-4x m-auto"></i>
       </div>
       <div class="service_desc">
 				<h2>FREE SHIPPING <br>in 4 - 24 Hours</h2>
@@ -241,7 +257,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
 			<div class="imgsetting d-block m-auto">
-        <i class="fa fa-check text-white fa-5x m-auto"></i>
+        <i class="fa fa-check text-white fa-4x m-auto"></i>
       </div>
       <div class="service_desc">
 				<h2>100% GENUINE <br>BATTERIES & INVERTERS</h2>
