@@ -75,7 +75,7 @@ h1 {
 
 .grid1 h1{
   /* font-family: 'Courier New', Courier, monospace; */
-  font-size: 64px;
+  font-size: 78px;
   font-weight: bold;
   text-shadow: 5px 5px 5px rgba(10, 1, 1, 0.99)!important;
 }
@@ -178,6 +178,9 @@ h1 {
   text-align: left;
 }
 
+.line {
+  background-color: whitesmoke;
+}
 
 
 /*    responsive    */
